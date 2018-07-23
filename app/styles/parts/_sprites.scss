@@ -1,0 +1,58 @@
+.sprite {
+    //width: 102px;
+    width: 485px;
+    //height: 148px;
+    height: 262px;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 8%;
+    left: 47%;
+    z-index: 10000;
+}
+
+.right {
+    background-image: url(../assets/pig-stand-right.png);//url(http://atomicrobotdesign.com/blog_media/css-sprite/standing-right.png);
+}
+
+.left {
+    background-image: url(../assets/pig-stand-left.png);//url(http://atomicrobotdesign.com/blog_media/css-sprite/standing-left.png);
+}
+
+.walk-right {
+    background-image: url(../assets/pig-walk-right.png);//url(http://atomicrobotdesign.com/blog_media/css-sprite/walk-right.png);
+    -webkit-animation: walk .9s steps(8) infinite;
+    -moz-animation: walk .9s steps(8) infinite;
+    -ms-animation: walk .9s steps(8) infinite;
+    -o-animation: walk .9s steps(8) infinite;
+    animation: walk .9s steps(8) infinite;
+}
+
+.walk-left {
+    background-image: url(../assets/pig-walk-left.png);//url(http://atomicrobotdesign.com/blog_media/css-sprite/walk-left.png);
+    -webkit-animation: walk .9s steps(8) infinite;
+    -moz-animation: walk .9s steps(8) infinite;
+    -ms-animation: walk .9s steps(8) infinite;
+    -o-animation: walk .9s steps(8) infinite;
+    animation: walk .9s steps(8) infinite;
+}
+
+@-webkit-keyframes walk {
+    from { background-position: 0px; }
+    to { background-position: -4078px; }
+}
+@-moz-keyframes walk {
+    from { background-position: 0px; }
+    to { background-position: -4078px; }
+}
+@-ms-keyframes walk {
+    from { background-position: 0px; }
+    to { background-position: -4078px; }
+}
+@-o-keyframes walk {
+    from { background-position: 0px; }
+    to { background-position: -4078px; }
+}
+@-keyframes walk {
+    from { background-position: 0px; }
+    to { background-position: -4078px; }
+}

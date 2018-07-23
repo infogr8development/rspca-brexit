@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Museo-Sans";
+    src: url("#{$font-path}/museosans-300.ttf") format("truetype"),
+        url("#{$font-path}/museosans-300.woff2") format("woff2"),
+        url("#{$font-path}/museosans-300.woff") format("woff");
+
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Museo-Sans";
+    src: url("#{$font-path}/museosans-500.ttf") format("truetype"),
+        url("#{$font-path}/museosans-500.woff2") format("woff2"),
+        url("#{$font-path}/museosans-500.woff") format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Museo-Sans";
+    src: url("#{$font-path}/museosans-700.ttf") format("truetype"),
+        url("#{$font-path}/museosans-700.woff2") format("woff2"),
+        url("#{$font-path}/museosans-700.woff") format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Museo-Sans";
+    src: url("#{$font-path}/museosans-900.ttf") format("truetype"),
+        url("#{$font-path}/museosans-900.woff2") format("woff2"),
+        url("#{$font-path}/museosans-900.woff") format("woff");
+    font-weight: 900;
+}

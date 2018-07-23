@@ -1,0 +1,106 @@
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  line-height: $lh;
+  font-size: 18px;
+  font-family: "Museo-Sans";
+  font-weight: 300;
+  width: 100%;
+  overflow-x: hidden;
+  @media #{$xsmall}{
+    font-size: 18px;
+  }
+}
+
+a, button {
+  &:focus {
+    outline: none;
+  }
+  ::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+
+h1{
+	font-size: 36px;
+	color: $white;
+	font-family: "Museo-Sans";
+  line-height: 46px;
+  font-weight: 700;
+  @media #{$xsmall-plus-ipad}{
+    font-size: 24px;
+    line-height: 34px;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+  @media #{$tilliphone5}{
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+h2{
+  font-size: 28px;
+  color: $white;
+  font-family: "Museo-Sans";
+  font-weight: 900;
+  @media #{$xsmall-plus-ipad}{
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+h3{
+  font-size: 24px;
+  font-family: "Museo-Sans";
+  font-weight: 300;
+  @media #{$xsmall-plus-ipad}{
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+h4{
+  font-size: 22px;
+  font-family: "Museo-Sans";
+  font-weight: 700;
+  @media #{$xsmall-plus-ipad}{
+    font-size: 22x;
+    line-height: 32px;
+  }
+}
+
+h5{
+  font-size: 17px;
+  font-family: "Museo-Sans";
+  font-weight: 900;
+  @media #{$xsmall-plus-ipad}{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+strong{
+  font-weight: 500;
+}
+
+.redStrong{
+  color: $red;
+}
+
+.blck{
+  color: $black;
+}
+
+.textBlock{
+  max-width: 960px;
+  margin: 0 auto;
+}
+

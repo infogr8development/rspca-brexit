@@ -1,0 +1,320 @@
+/*from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
+@font-face {
+  font-family: "Museo-Sans";
+  src: url("../assets/fonts/museosans-300.ttf") format("truetype"), url("../assets/fonts/museosans-300.woff2") format("woff2"), url("../assets/fonts/museosans-300.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Museo-Sans";
+  src: url("../assets/fonts/museosans-500.ttf") format("truetype"), url("../assets/fonts/museosans-500.woff2") format("woff2"), url("../assets/fonts/museosans-500.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Museo-Sans";
+  src: url("../assets/fonts/museosans-700.ttf") format("truetype"), url("../assets/fonts/museosans-700.woff2") format("woff2"), url("../assets/fonts/museosans-700.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Museo-Sans";
+  src: url("../assets/fonts/museosans-900.ttf") format("truetype"), url("../assets/fonts/museosans-900.woff2") format("woff2"), url("../assets/fonts/museosans-900.woff") format("woff");
+  font-weight: 900;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "Museo-Sans";
+  font-weight: 300;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+a:focus, button:focus {
+  outline: none;
+}
+
+a ::-moz-focus-inner, button ::-moz-focus-inner {
+  border: 0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+  font-family: "Museo-Sans";
+  line-height: 46px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+h2 {
+  font-size: 28px;
+  color: #fff;
+  font-family: "Museo-Sans";
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Museo-Sans";
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+h4 {
+  font-size: 22px;
+  font-family: "Museo-Sans";
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 22x;
+    line-height: 32px;
+  }
+}
+
+h5 {
+  font-size: 17px;
+  font-family: "Museo-Sans";
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+strong {
+  font-weight: 500;
+}
+
+.redStrong {
+  color: #E42226;
+}
+
+.blck {
+  color: #000;
+}
+
+.textBlock {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-y: hidden;
+}
+
+#ken {
+  position: absolute;
+  bottom: 19vh;
+  left: 505vh;
+}
+
+.boxaki {
+  position: absolute;
+  left: 250vh;
+  top: 50vh;
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+}
+
+#ken2 {
+  position: absolute;
+  top: 35vh;
+  left: 505vh;
+}
+
+.triggerP {
+  position: fixed;
+  height: 100vh;
+  width: 10px;
+  border-right: 1px solid #f90303;
+  z-index: 100000001;
+  left: 50%;
+}
+
+.scroll {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.scroll img {
+  height: 100vh;
+  transition: all 3s;
+}
+
+.scroll img.zoomed {
+  transform: translate(4000px, 0px) scale(4.1);
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+.horizon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.horizon img {
+  height: 100vh;
+  transition: all 3s;
+}
+
+.middle {
+  z-index: 500;
+  width: 3000px;
+}
+
+.front {
+  z-index: 1000;
+  width: 5000px;
+}
+
+.section2 .front {
+  width: 6000px;
+  left: 6000px;
+}
+
+.indoor {
+  background-color: #333;
+  width: 100%;
+  height: 100vh;
+}
+
+.sprite {
+  width: 485px;
+  height: 262px;
+  margin-top: 40px;
+  position: fixed;
+  bottom: 8%;
+  left: 47%;
+  z-index: 10000;
+}
+
+.right {
+  background-image: url(../assets/pig-stand-right.png);
+}
+
+.left {
+  background-image: url(../assets/pig-stand-left.png);
+}
+
+.walk-right {
+  background-image: url(../assets/pig-walk-right.png);
+  -webkit-animation: walk 0.9s steps(8) infinite;
+  -moz-animation: walk 0.9s steps(8) infinite;
+  -ms-animation: walk 0.9s steps(8) infinite;
+  -o-animation: walk 0.9s steps(8) infinite;
+  animation: walk 0.9s steps(8) infinite;
+}
+
+.walk-left {
+  background-image: url(../assets/pig-walk-left.png);
+  -webkit-animation: walk 0.9s steps(8) infinite;
+  -moz-animation: walk 0.9s steps(8) infinite;
+  -ms-animation: walk 0.9s steps(8) infinite;
+  -o-animation: walk 0.9s steps(8) infinite;
+  animation: walk 0.9s steps(8) infinite;
+}
+
+@-webkit-keyframes walk {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4078px;
+  }
+}
+
+@-moz-keyframes walk {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4078px;
+  }
+}
+
+@-ms-keyframes walk {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4078px;
+  }
+}
+
+@-o-keyframes walk {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4078px;
+  }
+}
+
+@-keyframes walk {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4078px;
+  }
+}
