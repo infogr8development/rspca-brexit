@@ -224,7 +224,7 @@ body {
 
 .front {
   z-index: 1000;
-  width: 5000px;
+  width: 6000px;
 }
 
 .section2 .front {
@@ -239,11 +239,11 @@ body {
 }
 
 .sprite {
-  width: 485px;
-  height: 262px;
+  width: 194px;
+  height: 100px;
   margin-top: 40px;
   position: fixed;
-  bottom: 8%;
+  bottom: 17%;
   left: 47%;
   z-index: 10000;
 }
@@ -279,7 +279,7 @@ body {
     background-position: 0px;
   }
   to {
-    background-position: -4078px;
+    background-position: -1549px;
   }
 }
 
@@ -288,7 +288,7 @@ body {
     background-position: 0px;
   }
   to {
-    background-position: -4078px;
+    background-position: -1549px;
   }
 }
 
@@ -297,7 +297,7 @@ body {
     background-position: 0px;
   }
   to {
-    background-position: -4078px;
+    background-position: -1549px;
   }
 }
 
@@ -306,7 +306,7 @@ body {
     background-position: 0px;
   }
   to {
-    background-position: -4078px;
+    background-position: -1549px;
   }
 }
 
@@ -315,6 +315,6 @@ body {
     background-position: 0px;
   }
   to {
-    background-position: -4078px;
+    background-position: -1549px;
   }
 }

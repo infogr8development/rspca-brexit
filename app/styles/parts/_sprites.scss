@@ -1,11 +1,11 @@
 .sprite {
     //width: 102px;
-    width: 485px;
+    width: 194px;
     //height: 148px;
-    height: 262px;
+    height: 100px;
     margin-top: 40px;
     position: fixed;
-    bottom: 8%;
+    bottom: 17%;
     left: 47%;
     z-index: 10000;
 }
@@ -38,21 +38,21 @@
 
 @-webkit-keyframes walk {
     from { background-position: 0px; }
-    to { background-position: -4078px; }
+    to { background-position: -1549px; }
 }
 @-moz-keyframes walk {
     from { background-position: 0px; }
-    to { background-position: -4078px; }
+    to { background-position: -1549px; }
 }
 @-ms-keyframes walk {
     from { background-position: 0px; }
-    to { background-position: -4078px; }
+    to { background-position: -1549px; }
 }
 @-o-keyframes walk {
     from { background-position: 0px; }
-    to { background-position: -4078px; }
+    to { background-position: -1549px; }
 }
 @-keyframes walk {
     from { background-position: 0px; }
-    to { background-position: -4078px; }
+    to { background-position: -1549px; }
 }

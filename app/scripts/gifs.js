@@ -31,7 +31,7 @@
             }
         }
 
-        var div3 = $('.indoor');
+        /*var div3 = $('.indoor');
         
         var div3_left = div3.offset().left;
         var div3_right = div3_left + div3.width();
@@ -51,7 +51,7 @@
                     })});
             
             div3.attr("data-played", "true");
-        }
+        }*/
 
 
     })
